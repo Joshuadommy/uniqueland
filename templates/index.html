@@ -25,6 +25,7 @@
 
 
     <!-- Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/video.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'assets/css/fullpage.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'assets/css/owl.carousel.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'assets/css/owl.theme.default.min.css/index.html' %}">
@@ -4003,24 +4004,25 @@
                                 <ul class="cos-nav-menu" id="menu">
                                     <li data-menuanchor="Introduction"><a href="#Introduction" alt="Introduction"
                                             class="item-link active"><span>Introduction</span></a></li>
-                                    <li data-menuanchor="MainFeature"><a href="#MainFeature" alt="MAIN FUTURES"
+                                    <li data-menuanchor="WhyUs"><a href="#WhyUs" alt="MAIN FUTURES"
                                             class="item-link"> <span>Why Us</span></a></li>
-                                    <li data-menuanchor="Tokennomics"><a href="#Tokenomics" alt="Tokennomics"
+                                    <li data-menuanchor="Roadmap"><a href="#Roadmap" alt="Tokennomics"
                                             class="item-link"> <span>Roadmap</span></a></li>
-                                    <li data-menuanchor="Roadmap"><a href="#Roadmap" alt="ROAD MAP"
+                                    <li data-menuanchor="Whitepaper"><a href="#" alt="ROAD MAP"
                                             class="item-link"><span>Whitepaper</span></a></li>
-                                    <li data-menuanchor="OurTeam"><a href="#OurTeam" alt="OURTEAM"
+                                    <li data-menuanchor="Community"><a href="#" alt="OURTEAM"
                                             class="item-link"><span>Community</span></a></li>
-                                    <li data-menuanchor="Partners"><a href="#Partners" alt="PARTNER"
+                                    <li data-menuanchor="Audit"><a href="#" alt="Audit"
                                             class="item-link"><span>Audit</span></a></li>
-                                    <li><a href="blog.html" alt="Blog" class="item-link"><span>Developers</span></a></li>
+                                    <li data-menuanchor="Developers"><a href="#Developers" alt="Developers"
+                                                class="item-link"> <span>developers</span></a></li>
                                     <li data-menuanchor="Partners"><a href="#Partners" alt="PARTNER"
                                         class="item-link"><span>Partners</span></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="link-button-contact"><a href="marketplace.html"><img
+                    <div class="link-button-contact"><a href="/market-place"><img
                                 src="{% static 'assets/images/comming/backtohome.png' %}" alt="index" /><span>Market place</span></a>
                     </div>
                     <button id="burger" type="button" class="burger"><span class="burger-line"></span><span
@@ -4030,6 +4032,10 @@
         </div>
     </div>
     <div class="clearfix"></div>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="{% static 'assets/videos/video.mp4' %}" type="video/mp4">
+    </video>
 
     <div class="page-content-wrapper">
         <div id="fullpage">
@@ -4258,7 +4264,7 @@
                 <div class="intro">
                     <div class="md-content">
                         <div class="md-title">
-                            <h3>UniqueLand Tokenomics</h3>
+                            <h3>Tokenomics</h3>
                             <div class="bg-title">
                                 <img src="{% static 'assets/images/home/md-title.png' %}" alt="index">
                             </div>
@@ -4473,22 +4479,6 @@
                         </div>
                         <div class="content-partner">
                             <div class="container">
-                                <div class="top-partner" style="margin-bottom: 10px;">
-                                    <div class="item">
-                                        <div class="title">
-                                            <p>Incubated by</p>
-                                        </div>
-                                        <a href="#"><img src="{% static 'assets/images/home/logo_p12.png' %}" alt=""></a>
-
-                                    </div>
-                                    <div class="item">
-                                        <div class="title">
-                                            <p>Secured by</p>
-                                        </div>
-                                        <a href="#"><img src="{% static 'assets/images/home/logo_p29.png' %}" alt=""></a>
-
-                                    </div>
-                                </div>
 
                                 <div class="list-partner v1 v3">
                                     <ul>
@@ -4990,9 +4980,9 @@
     <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
 
-            anchors: ['Top', 'Introduction', 'WhyUs', 'OurVision', 'Roadmap', 'NFTItems', 'MainFeature', 'GameConcept', 'Developers', 'Partners', 'ContactUs'],
+            anchors: ['Top', 'Introduction', 'WhyUs', 'OurVision', 'Roadmap', 'NFTItems', 'GameConcept', 'Developers', 'Partners', 'ContactUs'],
             navigation: true,
-            navigationTooltips: ['Top', 'Introduction', 'WhyUs', 'OurVision', 'Roadmap', 'NFTItems', 'GameConcept', 'Developers', 'Partners', 'Contact Us'],
+            navigationTooltips: ['Top', 'Introduction', 'WhyUs', 'OurVision', 'Roadmap', 'NFTItems', 'GameConcept', 'Developers', 'Partners', 'ContactUs'],
             showActiveTooltip: true,
             responsiveWidth: 1024,
             menu: '#menu'
