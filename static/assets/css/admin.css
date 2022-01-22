@@ -3193,7 +3193,7 @@ img {
   font-weight: 900;
   font-size: 50px;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.5px #25d5e8;
+  -webkit-text-stroke: 0.5px white;
   position: relative;
   z-index: 2;
   line-height: 225px;

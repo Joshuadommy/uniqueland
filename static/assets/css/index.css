@@ -164,7 +164,7 @@
   font-weight: 900;
   font-size: 50px;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.5px #25d5e8;
+  -webkit-text-stroke: 0.5px white;
 }
 #intro .intro .md-content .hero {
   display: -webkit-box;
@@ -247,7 +247,7 @@
   font-weight: 900;
   font-size: 50px;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.5px #25d5e8;
+  -webkit-text-stroke: 0.5px white;
   position: relative;
   z-index: 2;
   line-height: 190px;
@@ -433,7 +433,7 @@
   font-weight: 900;
   font-size: 50px;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.5px #25d5e8;
+  -webkit-text-stroke: 0.5px white;
   position: relative;
   z-index: 2;
   line-height: 190px;
@@ -647,7 +647,7 @@
   font-weight: 900;
   font-size: 50px;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.5px #25d5e8;
+  -webkit-text-stroke: 0.5px white;
   line-height: 80px;
 }
 #nfts_item .intro .md-content .hero {
@@ -840,7 +840,7 @@
   font-weight: 900;
   font-size: 50px;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.5px #25d5e8;
+  -webkit-text-stroke: 0.5px white;
   position: relative;
   z-index: 2;
   line-height: 190px;
@@ -963,7 +963,7 @@
   font-weight: 900;
   font-size: 50px;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.5px #25d5e8;
+  -webkit-text-stroke: 0.5px white;
   position: relative;
   z-index: 2;
   line-height: 190px;
@@ -1910,7 +1910,7 @@ button {
 	color: #0bbbbb;
 	font-size: 18px;
 	margin-bottom: 0;
-  -webkit-text-stroke: 0.5px #25d5e8;
+  -webkit-text-stroke: 0.5px white;
   position: relative;
 }
 #partner .top-partner .item a{
