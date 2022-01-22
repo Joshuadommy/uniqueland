@@ -152,7 +152,7 @@
   font-weight: 600;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: rgba(0, 0, 0, 0.1);
+  -webkit-text-fill-color: white;
   background-image: url("../images/bgtext.jpg");
   background-repeat: repeat;
   background-attachment: cover;
@@ -232,7 +232,7 @@
   font-weight: 600;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: rgba(0, 0, 0, 0.1);
+  -webkit-text-fill-color: white;
   background-image: url("../images/bgtext.jpg");
   background-repeat: repeat;
   background-attachment: cover;
@@ -418,7 +418,7 @@
   font-weight: 600;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: rgba(0, 0, 0, 0.1);
+  -webkit-text-fill-color: white;
   background-image: url("../images/bgtext.jpg");
   background-repeat: repeat;
   background-attachment: cover;
@@ -634,7 +634,7 @@
   font-weight: 600;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: rgba(0, 0, 0, 0.1);
+  -webkit-text-fill-color: white;
   background-image: url("../images/bgtext.jpg");
   background-repeat: repeat;
   background-attachment: cover;
@@ -825,7 +825,7 @@
   font-weight: 600;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: rgba(0, 0, 0, 0.1);
+  -webkit-text-fill-color: white;
   background-image: url("../images/bgtext.jpg");
   background-repeat: repeat;
   background-attachment: cover;
@@ -948,7 +948,7 @@
   font-weight: 600;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: rgba(0, 0, 0, 0.1);
+  -webkit-text-fill-color: white;
   background-image: url("../images/bgtext.jpg");
   background-repeat: repeat;
   background-attachment: cover;
@@ -1903,7 +1903,7 @@ button {
   position: relative;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: rgba(0, 0, 0, 0.1);
+  -webkit-text-fill-color: white;
 }
 #partner .top-partner .item p{
 	text-align: left;

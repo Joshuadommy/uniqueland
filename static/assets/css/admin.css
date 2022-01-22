@@ -3187,7 +3187,7 @@ img {
   margin-top: 20px;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: rgba(0, 0, 0, 0.1);
+  -webkit-text-fill-color: white;
 }
 .md-title h3 {
   font-weight: 900;
